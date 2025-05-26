@@ -527,9 +527,9 @@ export const userConfig = {
 
     // SEO Configuration
     seo: {
-        title: 'Abdelrahman Saleh - Software Developer',
-        description: 'Software Developer based in Egypt specializing in React, Node.js, and modern web technologies',
-        keywords: ['Software Developer', 'React', 'Node.js', 'Web Development', 'Egypt'],
+        title: 'HarryLee - Information Security Specialist',
+        description: 'Vietnamese Information Security Specialist',
+        keywords: ['Information Security Specialist', 'Web Development', 'Vietnam'],
     },
 
     // Theme Configuration
