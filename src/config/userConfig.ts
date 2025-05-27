@@ -14,7 +14,7 @@ export const userConfig = {
     location: 'Ho Chi Minh City, Vietnam',
     email: 'harrylee02.work@gmail.com',
     website: 'harrylee.id.vn',
-    roleFocus: 'Backend Development using .NET, C#, Entity Framework, SQL Server, and Bootstrap. Can also work with Angular, React, and Node.js.',
+    roleFocus: 'Security Specialist',
     age: 21,    
 
     // Social Links
@@ -32,13 +32,13 @@ export const userConfig = {
 
     // Spotify Configuration
     spotify: {
-        playlistId: '5WsS94KKm5wDhgEpg8VcgM', // Your Spotify playlist ID
-        playlistName: 'Coding-Time',
+        playlistId: '0mSgMxv8a4CE9DnPVONECO', // Your Spotify playlist ID
+        playlistName: 'random-stuff',
     },
 
     // Resume Configuration
     resume: {
-        url: 'https://drive.google.com/file/d/1ZyaeXLpdOtPUygFCu55yYCQSEdW3K4pm/view',
+        url: 'https://drive.google.com/file/d/1k5QVhHgOb6o4ksZ5AHuWFkqZ4-8Jw7lW/view?usp=sharing',
         localPath: '/resume.pdf',
     },
 
