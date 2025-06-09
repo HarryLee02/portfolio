@@ -17,7 +17,7 @@ import {
 import { VscVscode } from 'react-icons/vsc';
 import { userConfig } from '../../config/userConfig';
 import HelpModal from './HelpModal';
-import imageUrl from '../../assets/images/me.svg';
+import meImage from '../../assets/images/me.svg';
 
 type MenuItem = {
   label: string;
@@ -227,7 +227,7 @@ export default function MacToolbar({
               <div className="absolute top-full left-0 mt-1 bg-white/98 backdrop-blur-sm rounded-lg p-4 shadow-xl z-[100]">
                 <div className="w-[200px] h-[200px] flex items-center justify-center">
                   <img 
-                    src={imageUrl.src}
+                    src={meImage.src}
                     alt="Signature" 
                     className="max-w-full max-h-full object-contain"
                   />
