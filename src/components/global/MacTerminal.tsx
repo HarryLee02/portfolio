@@ -21,9 +21,9 @@ interface MacTerminalProps {
 // Customize these placeholder messages for the input field
 const PLACEHOLDER_MESSAGES = [
   'Type your question...',
-  'What are your skills?',
-  'Where are you located?',
-  'What projects have you worked on?',
+  'Ask me: "What are your skills?"',
+  '...or: "Where are you located?"',
+  '...what about: "What projects have you worked on?"',
 ];
 
 export default function MacTerminal({ isOpen, onClose }: MacTerminalProps) {

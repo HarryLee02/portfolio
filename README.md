@@ -26,7 +26,7 @@ A modern, interactive portfolio website built with Astro, React, and Tailwind CS
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/aabdoo23/portfolio
+git clone https://github.com/HarryLee02/portfolio
 cd portfolio
 ```
 
@@ -64,12 +64,6 @@ To build the project for production:
 
 ```bash
 npm run build
-```
-
-To preview the production build:
-
-```bash
-npm run preview
 ```
 
 ## 📁 Project Structure
@@ -114,9 +108,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Built with modern web technologies
 - Thanks to all contributors and maintainers of the open-source tools used in this project
 
-## 📞 Contact
-
-For questions or support, please open an issue on GitHub.
-
-Original version made with ❤️ in Austin, TX by Johnny Culbreth
-Modified with ❤️ in Giza, Egypt by aabdoo23
