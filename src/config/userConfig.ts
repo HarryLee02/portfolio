@@ -7,7 +7,6 @@ import nucpaBalloons from './projects/nucpa-balloons.json';
 import nucpaBalloonsApi from './projects/nucpaballoonsapi.json';
 import portfolio from './projects/portfolio.json';
 import foodies from './projects/foodies.json';
-import uiuCtfImage from '../assets/images/uiu-ctf-2023.png';
 
 export const userConfig = {
     // Personal Information
@@ -224,7 +223,7 @@ export const userConfig = {
             year: "2023",
             images: [
                 {
-                    url: uiuCtfImage.src,
+                    url: "../assets/images/uiu-ctf-2023.png",
                     alt: "UIU CTF 2023 - Wanna Game Weekly",
                     description: "Award board"
                 }
