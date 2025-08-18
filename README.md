@@ -1,10 +1,10 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  <a href="https://harrylee.id.vn/" target="_blank">harrylee.id.vn</a>
 </h2>
-<div align="center">
+<!-- <div align="center">
   <img alt="Demo" src="./assets/readme.png" />
-</div>
+</div> -->
 
 <br/>
 
@@ -47,12 +47,12 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 2. In the project directory, you can run: `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
 ## Usage Instructions
 
-Open the project folder and Navigate to `/src/components/`. <br/>
+Open the project folder and Navigate to `/src/components/`. 
+
 You will find all the components used and you can edit your information accordingly.
 
 ### Show your support

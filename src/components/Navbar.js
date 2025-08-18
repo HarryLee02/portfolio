@@ -4,9 +4,11 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { FaHeart } from "react-icons/fa";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -19,6 +21,7 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [showDonateModal, setShowDonateModal] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -102,6 +105,18 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                onClick={() => {
+                  setShowDonateModal(true);
+                  updateExpanded(false);
+                }}
+                style={{ cursor: "pointer" }}
+              >
+                <FaHeart style={{ marginBottom: "2px", color: "#e74c3c" }} /> Tip
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/HarryLee02/Portfolio"
@@ -115,6 +130,26 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      
+             <Modal
+         show={showDonateModal}
+         onHide={() => setShowDonateModal(false)}
+         centered
+         size="md"
+       >
+        <Modal.Header closeButton>
+          <Modal.Title>Support My Work</Modal.Title>
+        </Modal.Header>
+                 <Modal.Body style={{ padding: 0, margin: 0 }}>
+           <iframe 
+             id='kofiframe' 
+             src='https://ko-fi.com/harrylee02/?hidefeed=true&widget=true&embed=true&preview=true' 
+             style={{border: 'none', width: '100%', padding: '0', background: '#f9f9f9', margin: '0'}} 
+             height='630' 
+             title='harrylee02'
+           />
+         </Modal.Body>
+      </Modal>
     </Navbar>
   );
 }

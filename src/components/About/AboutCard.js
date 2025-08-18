@@ -8,13 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Harry Lee </span>
+            Hi everyone! I am <span className="purple">Harry Lee </span>
             from <span className="purple"> Ho Chi Minh City, Vietnam.</span>
             <br />
-            I am currently employed as an intern.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I am currently a senior at University of Information Techonology, Vietnam, majoring in <span className="purple"> Information Security</span>.
             <br />
             <br />
             Apart from coding, I also have a life!
